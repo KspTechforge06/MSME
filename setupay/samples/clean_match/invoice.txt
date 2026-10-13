@@ -1,0 +1,13 @@
+INVOICE
+Invoice Number : INV-2026-0101
+Invoice Date   : 2026-09-01
+Payment Terms  : Net 30
+Due Date       : 2026-10-01
+
+Supplier : Sunrise Components Pvt Ltd
+Buyer    : Meridian Traders LLP
+Currency : INR
+
+Item: Industrial fasteners, batch 15   500 units
+
+Invoice Total : INR 45,000

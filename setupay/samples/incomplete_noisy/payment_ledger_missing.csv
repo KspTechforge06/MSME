@@ -1,0 +1,3 @@
+date,reference,party,type,amount,currency,note
+2026-09-05,PAY-5501,Sunrise Components Pvt Ltd,outgoing,,INR,possibly against INV-2026-0305
+2026-09-11,PAY-5502,Sunrise Components Pvt Ltd,outgoing,,INR,amount blank in export

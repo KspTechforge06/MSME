@@ -1,0 +1,18 @@
+From: accounts@meridiantraders.example
+To: billing@sunrisecomponents.example
+Date: 2026-09-04
+Subject: Re: Invoice INV-2026-0042
+
+Hello,
+
+Thank you for the fasteners delivered on 2026-08-05.
+
+We note that invoice INV-2026-0042 shows a total of INR 48,000, while our
+purchase order PO-2026-0117 was raised for INR 45,000. Please clarify the
+difference of INR 3,000.
+
+A part payment was released earlier this month. The remaining balance is
+pending internal approval on our side.
+
+Regards,
+Accounts, Meridian Traders LLP

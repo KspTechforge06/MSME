@@ -1,0 +1,23 @@
+INVOICE
+=======
+Invoice Number : INV-2026-0042
+Invoice Date   : 2026-08-01
+Payment Terms  : Net 30
+Due Date       : 2026-08-31
+
+Supplier : Sunrise Components Pvt Ltd
+           Plot 14, MIDC Industrial Area, Pune 411018
+Buyer    : Meridian Traders LLP
+           22 Market Road, Nashik 422001
+
+GSTIN (Supplier) : 27ABCDE1234F1Z5
+GSTIN (Buyer)    : 27PQRST5678G2Z1
+
+Line items
+----------
+Industrial fasteners, batch 12      500 units
+Against purchase order: PO-2026-0117
+
+Invoice Total : INR 48,000
+
+Declaration: the goods listed above have been supplied as described.

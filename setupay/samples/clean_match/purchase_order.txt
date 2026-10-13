@@ -1,0 +1,10 @@
+PURCHASE ORDER
+Purchase Order Number : PO-2026-0201
+Order Date            : 2026-08-28
+Buyer                 : Meridian Traders LLP
+Supplier              : Sunrise Components Pvt Ltd
+Currency              : INR
+
+Item: Industrial fasteners   500 units
+
+Purchase Order Total : INR 45,000

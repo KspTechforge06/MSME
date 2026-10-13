@@ -1,0 +1,233 @@
+{
+  "tool": "SetuPay",
+  "generated_at": "2026-10-13T13:47:45",
+  "model": "qwen2.5:3b",
+  "disclaimer": "SetuPay organises and cross-checks documents for human review. It is not legal advice, does not determine legal liability, and does not file complaints. A discrepancy is a review signal, not proof of wrongdoing, and a past due date does not by itself establish that an invoice is unpaid.",
+  "documents": [
+    {
+      "filename": "01_invoice.txt",
+      "document_type": "invoice",
+      "document_number": "INV-2026-0042",
+      "buyer": "Meridian Traders LLP",
+      "supplier": "Sunrise Components Pvt Ltd",
+      "currency": "INR",
+      "amount": 48000.0,
+      "issue_date": "2026-08-01",
+      "due_date": "2026-08-31",
+      "delivery_date": null,
+      "quantity": null,
+      "payment_amount": null,
+      "payment_date": null,
+      "source_quotes": [],
+      "uncertainties": [],
+      "text_excerpt": "INVOICE\n=======\nInvoice Number : INV-2026-0042\nInvoice Date   : 2026-08-01\nPayment Terms  : Net 30\nDue Date       : 2026-08-31\n\nSupplier : Sunrise Components Pvt Ltd\n           Plot 14, MIDC Industrial Area, Pune 411018\nBuyer    : Meridian Traders LLP\n           22 Market Road, Nashik 422001\n\nGSTIN (Supplier) : 27ABCDE1234F1Z5\nGSTIN (Buyer)    : 27PQRST5678G2Z1\n\nLine items\n----------\nIndustrial fasteners, batch 12      500 units\nAgainst purchase order: PO-2026-0117\n\nInvoice Total : INR 48,000\n\nDeclaration: the goods listed above have been supplied as described.",
+      "table_rows": [],
+      "error": null
+    },
+    {
+      "filename": "02_purchase_order.txt",
+      "document_type": "purchase_order",
+      "document_number": "PO-2026-0117",
+      "buyer": "Meridian Traders LLP",
+      "supplier": "Sunrise Components Pvt Ltd",
+      "currency": "INR",
+      "amount": 45000.0,
+      "issue_date": "2026-07-25",
+      "due_date": null,
+      "delivery_date": null,
+      "quantity": 500.0,
+      "payment_amount": null,
+      "payment_date": null,
+      "source_quotes": [],
+      "uncertainties": [],
+      "text_excerpt": "PURCHASE ORDER\n==============\nPurchase Order Number : PO-2026-0117\nOrder Date            : 2026-07-25\nBuyer                 : Meridian Traders LLP\nSupplier              : Sunrise Components Pvt Ltd\nCurrency              : INR\nDelivery Terms        : Ex-works, 7 days\n\nItem                    Quantity      Notes\nIndustrial fasteners    500 units     batch 12\n\nPurchase Order Total : INR 45,000\n\nAuthorised by: Procurement, Meridian Traders LLP",
+      "table_rows": [],
+      "error": null
+    },
+    {
+      "filename": "03_delivery_receipt.txt",
+      "document_type": "delivery_receipt",
+      "document_number": "DR-2026-0088",
+      "buyer": null,
+      "supplier": "Sunrise Components Pvt Ltd",
+      "currency": null,
+      "amount": null,
+      "issue_date": null,
+      "due_date": null,
+      "delivery_date": "2026-08-05",
+      "quantity": 500.0,
+      "payment_amount": null,
+      "payment_date": null,
+      "source_quotes": [],
+      "uncertainties": [],
+      "text_excerpt": "DELIVERY RECEIPT\n================\nDelivery Receipt Number : DR-2026-0088\nDelivery Date           : 2026-08-05\nReceived By             : Meridian Traders LLP (Warehouse 2)\nDelivered By            : Sunrise Components Pvt Ltd\nAgainst Purchase Order  : PO-2026-0117\n\nItem                    Ordered      Received\nIndustrial fasteners    500 units    500 units\n\nCondition on receipt : Good, sealed packaging intact.",
+      "table_rows": [],
+      "error": null
+    },
+    {
+      "filename": "04_email_correspondence.txt",
+      "document_type": "email",
+      "document_number": null,
+      "buyer": null,
+      "supplier": "Meridian Traders LLP",
+      "currency": "INR",
+      "amount": 48000.0,
+      "issue_date": null,
+      "due_date": null,
+      "delivery_date": "2026-08-05",
+      "quantity": null,
+      "payment_amount": null,
+      "payment_date": null,
+      "source_quotes": [
+        {
+          "field": "amount",
+          "quote": "We note that invoice INV-2026-0042 shows a total of INR 48,000, while our purchase order PO-2026-0117 was raised for INR 45,000."
+        }
+      ],
+      "uncertainties": [],
+      "text_excerpt": "From: accounts@meridiantraders.example\nTo: billing@sunrisecomponents.example\nDate: 2026-09-04\nSubject: Re: Invoice INV-2026-0042\n\nHello,\n\nThank you for the fasteners delivered on 2026-08-05.\n\nWe note that invoice INV-2026-0042 shows a total of INR 48,000, while our\npurchase order PO-2026-0117 was raised for INR 45,000. Please clarify the\ndifference of INR 3,000.\n\nA part payment was released earlier this month. The remaining balance is\npending internal approval on our side.\n\nRegards,\nAccounts, Meridian Traders LLP",
+      "table_rows": [],
+      "error": null
+    },
+    {
+      "filename": "05_payment_ledger.csv",
+      "document_type": "payment_ledger",
+      "document_number": null,
+      "buyer": null,
+      "supplier": "Sunrise Components Pvt Ltd, Orbit Logistics",
+      "currency": "INR",
+      "amount": 4500.0,
+      "issue_date": null,
+      "due_date": null,
+      "delivery_date": null,
+      "quantity": null,
+      "payment_amount": null,
+      "payment_date": null,
+      "source_quotes": [
+        {
+          "field": "amount",
+          "quote": "amount not captured in this export"
+        }
+      ],
+      "uncertainties": [
+        "payment_amount",
+        "payment_date"
+      ],
+      "text_excerpt": "date | reference | party | type | amount | currency | note\n2026-08-10 | PAY-9901 | Sunrise Components Pvt Ltd | outgoing | 20000 | INR | part payment for INV-2026-0042\n2026-08-18 | PAY-9944 | Orbit Logistics | outgoing | 1500 | INR | courier charges\n2026-08-25 | PAY-9987 | Sunrise Components Pvt Ltd | outgoing |  | INR | amount not captured in this export",
+      "table_rows": [
+        {
+          "date": "2026-08-10",
+          "reference": "PAY-9901",
+          "party": "Sunrise Components Pvt Ltd",
+          "type": "outgoing",
+          "amount": 20000.0,
+          "currency": "INR",
+          "note": "part payment for INV-2026-0042"
+        },
+        {
+          "date": "2026-08-18",
+          "reference": "PAY-9944",
+          "party": "Orbit Logistics",
+          "type": "outgoing",
+          "amount": 1500.0,
+          "currency": "INR",
+          "note": "courier charges"
+        },
+        {
+          "date": "2026-08-25",
+          "reference": "PAY-9987",
+          "party": "Sunrise Components Pvt Ltd",
+          "type": "outgoing",
+          "amount": null,
+          "currency": "INR",
+          "note": "amount not captured in this export"
+        }
+      ],
+      "error": null
+    }
+  ],
+  "findings": [
+    {
+      "check": "amount_comparison",
+      "status": "Review required",
+      "summary": "Invoice and purchase-order amounts differ by 3,000.00 INR.",
+      "detail": "Invoice 01_invoice.txt shows 48,000.00; purchase order 02_purchase_order.txt shows 45,000.00. This is a review signal only and does not indicate which amount is correct.",
+      "documents": [
+        "01_invoice.txt",
+        "02_purchase_order.txt"
+      ],
+      "source_quotes": []
+    },
+    {
+      "check": "invoice_due_date",
+      "status": "Verified check",
+      "summary": "Invoice due date extracted: 2026-08-31.",
+      "detail": "",
+      "documents": [
+        "01_invoice.txt"
+      ],
+      "source_quotes": []
+    },
+    {
+      "check": "payment_evidence",
+      "status": "Review required",
+      "summary": "Recorded payments against INV-2026-0042 (20,000.00) are less than the invoice amount (48,000.00).",
+      "detail": "Possible partial payment. Confirm against bank or accounting records.",
+      "documents": [
+        "01_invoice.txt",
+        "05_payment_ledger.csv"
+      ],
+      "source_quotes": []
+    },
+    {
+      "check": "ledger_quality",
+      "status": "Missing",
+      "summary": "05_payment_ledger.csv row 3: missing amount.",
+      "detail": "This ledger row cannot be used in checks until completed.",
+      "documents": [
+        "05_payment_ledger.csv"
+      ],
+      "source_quotes": []
+    },
+    {
+      "check": "missing_fields",
+      "status": "Verified check",
+      "summary": "Invoice 01_invoice.txt: all expected fields present.",
+      "detail": "",
+      "documents": [
+        "01_invoice.txt"
+      ],
+      "source_quotes": []
+    },
+    {
+      "check": "missing_fields",
+      "status": "Verified check",
+      "summary": "Purchase Order 02_purchase_order.txt: all expected fields present.",
+      "detail": "",
+      "documents": [
+        "02_purchase_order.txt"
+      ],
+      "source_quotes": []
+    },
+    {
+      "check": "missing_fields",
+      "status": "Verified check",
+      "summary": "Delivery Receipt 03_delivery_receipt.txt: all expected fields present.",
+      "detail": "",
+      "documents": [
+        "03_delivery_receipt.txt"
+      ],
+      "source_quotes": []
+    },
+    {
+      "check": "extraction_uncertainty",
+      "status": "Uncertain",
+      "summary": "2 extraction uncertainty note(s) reported by the model.",
+      "detail": "05_payment_ledger.csv: payment_amount\n05_payment_ledger.csv: payment_date",
+      "documents": [
+        "05_payment_ledger.csv"
+      ],
+      "source_quotes": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+date,reference,party,type,amount,currency,note
+2026-08-10,PAY-9901,Sunrise Components Pvt Ltd,outgoing,20000,INR,part payment for INV-2026-0042
+2026-08-18,PAY-9944,Orbit Logistics,outgoing,1500,INR,courier charges
+2026-08-25,PAY-9987,Sunrise Components Pvt Ltd,outgoing,,INR,amount not captured in this export

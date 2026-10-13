@@ -1,0 +1,12 @@
+DELIVERY RECEIPT
+================
+Delivery Receipt Number : DR-2026-0088
+Delivery Date           : 2026-08-05
+Received By             : Meridian Traders LLP (Warehouse 2)
+Delivered By            : Sunrise Components Pvt Ltd
+Against Purchase Order  : PO-2026-0117
+
+Item                    Ordered      Received
+Industrial fasteners    500 units    500 units
+
+Condition on receipt : Good, sealed packaging intact.
